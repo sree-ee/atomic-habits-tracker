@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  max-width: 800px; 
+  text-align: center;
+}
+.subtitle{
+  font-family: monospace;
+  font-size: 25px;
+  color: black;
+  width: 600px;
+  margin-bottom: 10px;
+  background-color: rgb(183, 236, 236);
+}
+.habit-category{
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  width:200px;
+  height:50px;
+
+}
+.habit-container{
+  display: flex;
+  padding-bottom: 20px;
+
+}
